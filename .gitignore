@@ -1,0 +1,7 @@
+# runtime data
+feed_counts.csv
+seen_headlines.txt
+
+# python junk
+__pycache__/
+*.pyc
