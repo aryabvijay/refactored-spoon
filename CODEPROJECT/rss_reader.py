@@ -5,7 +5,7 @@ import feedparser
 from ticker_dict import ticker_dict
 import csv
 
-FEED_URL = "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+# FEED_URL
 LOG_FILE = "stock_counts.csv"
 SEEN_FILE = "seen_ids.txt"
 
