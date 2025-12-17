@@ -12,6 +12,9 @@ Saves the state to CSV files so purchases, holdings, and cash are persisted betw
 
 Note: The strategy is illustrative, not financial advice. Prices are fetched live, and allocations are simplified; users can replace price_provider with a different source or modify the allocation logic.
 
+# Planned Updates
+We intend to start doing sentiment analysis of the headlines to inform a (potentially less naive) buy strategy.
+
 # Setup
 Clone the repository using `git clone https://github.com/yourusername/yourrepo.git` and `cd yourrepo`. Install dependencies with `pip install feedparser yfinance`. Update `ticker_dict.py` with your list of tickers and company names if needed. Optionally, set paths in `feed_logger.py` such as `LOG_FILE`, `SEEN_FILE`, and `FEED_URL`.
 
