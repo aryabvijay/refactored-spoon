@@ -1,7 +1,18 @@
-# runtime data
-feed_counts.csv
-seen_headlines.txt
-
-# python junk
+# Python cache and system files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.swp
+*.DS_Store
+
+# Local CSVs and logs
+portfolio.csv
+transactions.csv
+cash_available.csv
+feed_counts.csv
+seen_headlines.txt
+seen_rows.csv
+
+# Environment files
+.env
